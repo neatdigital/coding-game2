@@ -51,3 +51,4 @@ const inputs = ['20 4', '24'];
 for (const input of inputs) {
   console.log(input);
 }
+//test
