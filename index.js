@@ -49,6 +49,8 @@ Sortie
 const inputs = ['20 4', '24'];
 
 for (const input of inputs) {
-  console.log(input);
+  const perimeter = input.split(' ')[0];
+  const side = input.split(' ')[1];
+  let area = side ? (perimeter / 2 - side) * side : Math.pow(perimeter / 4, 2);
+  console.log(area);
 }
-//test
